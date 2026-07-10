@@ -28,3 +28,19 @@ public class sumOFSequence {
         System.out.println(sum);
     }
 }
+
+// problem 3
+import java.util.*;
+
+public class sumOFSequence {
+
+    public static void main(String[] args) {
+        System.out.println("enter the no n");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println("enter the required power");
+        int p = sc.nextInt();
+        System.out.println(Math.pow(n, p));
+    }
+}
+
